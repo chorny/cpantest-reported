@@ -1,0 +1,36 @@
+--- 
+comment: |
+  Bad dists, that cannot be unpacked, have circular dependencies, do not have Makefile.PL/Build.PL, etc.
+disabled: 1
+match:
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |Coro-Amazon-SimpleDB-0.04 #https://rt.cpan.org/Ticket/Display.html?id=82281
+    |Speech-Google-0.5 #https://rt.cpan.org/Ticket/Display.html?id=85069
+    |HPPPM-Demand-Management-0.02 #https://rt.cpan.org/Ticket/Display.html?id=86011
+    |downsexta-0.2-2 #https://rt.cpan.org/Ticket/Display.html?id=87944
+    |Term-Menus-FromFile-1.0.0 #https://rt.cpan.org/Ticket/Display.html?id=88038
+    |WebService-ShiftPlanning-0.02 #https://rt.cpan.org/Ticket/Display.html?id=90336
+    |App-githook-perltidy-0.11.1_4 #https://rt.cpan.org/Ticket/Display.html?id=90338
+    |WWW-InstaMapper-0.02 #https://rt.cpan.org/Ticket/Display.html?id=91566
+    |Net-UCP-0.42 #https://rt.cpan.org/Ticket/Display.html?id=91567
+    |PPI-Prettify-0.03 #https://rt.cpan.org/Ticket/Display.html?id=92243
+
+    #bad archive
+    |Log-Funlog-0.89 #https://rt.cpan.org/Ticket/Display.html?id=93689
+
+    #no .PL
+    |API-ReviewBoard-0.1 #https://rt.cpan.org/Ticket/Display.html?id=92245
+    |FastDB-2.0.2 #https://rt.cpan.org/Ticket/Display.html?id=92883
+    |URL-RegexMatching-1.1 #https://rt.cpan.org/Ticket/Display.html?id=92888
+    |Text-BSV-1.04 #https://rt.cpan.org/Ticket/Display.html?id=93685
+    |AI-SimulatedAnnealing-1.02 #https://rt.cpan.org/Ticket/Display.html?id=93686
+
+    #incorrect directory structure
+    |WWW-Wuala-00.1 #https://rt.cpan.org/Ticket/Display.html?id=92886
+
+    #circular dependency
+    |App-Kit-0.61 #https://rt.cpan.org/Ticket/Display.html?id=91462
+    |Xporter-0.0.6 #https://rt.cpan.org/Ticket/Display.html?id=91856
+    )|

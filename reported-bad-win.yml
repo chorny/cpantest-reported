@@ -1,0 +1,31 @@
+--- 
+comment: |
+  Bad dists, mostly bad file names or symlinks
+disabled: 1
+match:
+  perlconfig:
+    osname: MSWin32
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |Net-Semantics3-0.10 #https://rt.cpan.org/Ticket/Display.html?id=83793
+    |Dancer-Plugin-FakeCGI-0.62 #https://rt.cpan.org/Ticket/Display.html?id=86012
+    |WWW-RenRen-0.37 #https://rt.cpan.org/Ticket/Display.html?id=86013
+    |File-DirCompare-0.7 #https://rt.cpan.org/Ticket/Display.html?id=86024
+    |SystemTray-Applet-Win32-0.02 #recursive dependency, https://rt.cpan.org/Ticket/Display.html?id=82684
+    |Business-CompanyDesignator-0.03 #https://rt.cpan.org/Ticket/Display.html?id=90337
+    |WebService-Gyazo-0.02 #https://github.com/maximusfox/WebService--Gyazo/issues/1
+    |Test-Builder-Clutch-0.05 #https://rt.cpan.org/Ticket/Display.html?id=90339
+    |JavaBin-0.6 #https://github.com/JRaspass/JavaBin/issues/1
+    |HTTP-CDN-0.7 #https://rt.cpan.org/Ticket/Display.html?id=90485
+    |CracTools-core-1.01 #https://rt.cpan.org/Ticket/Display.html?id=91563
+    |digitagCT-1.01 #https://rt.cpan.org/Ticket/Display.html?id=91564
+    |MySQL-Replication-0.0.2 #https://rt.cpan.org/Ticket/Display.html?id=92244
+    |Finance-Bank-Cahoot-1.07 #https://rt.cpan.org/Ticket/Display.html?id=93687
+    |Test-CheckChanges-0.14 #https://rt.cpan.org/Ticket/Display.html?id=62644
+    |Parse-Extract-Net-MAC48-0.01 #cyclic symlink https://rt.cpan.org/Ticket/Display.html?id=93691
+
+    #bad chars
+    |POD-Credentials-0.04 #https://rt.cpan.org/Ticket/Display.html?id=93692
+
+    )|

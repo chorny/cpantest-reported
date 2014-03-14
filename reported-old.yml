@@ -1,0 +1,23 @@
+--- 
+comment: |
+  Old dists, where newer version exists, but they are still indexed and cause some problems
+disabled: 1
+match:
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |LWPx-TimedHTTP-1.4 #https://rt.cpan.org/Ticket/Display.html?id=83025
+    |Module-Pluggable-Singleton-0.02.3 #https://rt.cpan.org/Ticket/Display.html?id=86025
+    |Algorithm-DependencySolver-0.1 #https://rt.cpan.org/Ticket/Display.html?id=87670
+    |WebService-Bitly-0.04 #https://rt.cpan.org/Ticket/Display.html?id=82749
+    |DbFramework-1.10 #https://rt.cpan.org/Public/Bug/Display.html?id=34541
+    |DBIx-Class-Relationship-Predicate-0.04 #https://github.com/wreis/DBIC-Relationship-Predicate/issues/1
+    |IO-Async-0.59 #https://rt.cpan.org/Ticket/Display.html?id=92210
+    |DJabberd-0.81 #https://rt.cpan.org/Ticket/Display.html?id=92209
+    |Poet-0.03 #https://rt.cpan.org/Ticket/Display.html?id=92208
+    |Plagger-0.7.1 #https://rt.cpan.org/Ticket/Display.html?id=82863
+    |Plagger-0.6.5
+    |Plagger-0.5.2
+    |Plagger-0.5.4
+    |Plagger-0.5.7
+    )|

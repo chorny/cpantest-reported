@@ -1,0 +1,25 @@
+--- 
+comment: |
+  Autoinstall - distributions that install other CPAN distributions without asking
+disabled: 1
+match:
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |OpenThought-1.99.16 #https://rt.cpan.org/Ticket/Display.html?id=85034
+    |Lingua-EN-Segmenter-0.1 #https://rt.cpan.org/Ticket/Display.html?id=25155
+    |ASNMTAP-3.002003 #https://rt.cpan.org/Ticket/Display.html?id=82201
+    |Wiki-Gateway-0.001991 #https://rt.cpan.org/Ticket/Display.html?id=86800
+    |Cache-Memcached-Queue-0.1.4 #https://rt.cpan.org/Ticket/Display.html?id=87452
+    |Email-Send-TheSchwartz-0.01 #https://rt.cpan.org/Ticket/Display.html?id=82973
+    |Frivolity-0.7.1 #https://rt.cpan.org/Ticket/Display.html?id=82841
+    |Test-Chimps-0.07 #https://rt.cpan.org/Ticket/Display.html?id=82982
+    |Lingua-LinkParser-FindPath-0.01 #https://rt.cpan.org/Ticket/Display.html?id=82868
+    |Kwiki-UserName-Auth-0.10 #https://rt.cpan.org/Ticket/Display.html?id=87568
+    |CGI-AppBuilder-Frame-0.10 #https://rt.cpan.org/Ticket/Display.html?id=82882
+    |HoneyClient-Manager-0.99 #https://rt.cpan.org/Ticket/Display.html?id=82840
+    |HoneyClient-Util-0.98-stable #https://rt.cpan.org/Ticket/Display.html?id=82839
+    |Devel-ebug-HTTP-0.32 #https://rt.cpan.org/Public/Bug/Display.html?id=40599
+    |Plucene-Analysis-CJKAnalyzer-0.02 #https://rt.cpan.org/Ticket/Display.html?id=87916
+    |RT-Client-0.01 #https://rt.cpan.org/Ticket/Display.html?id=91404
+    )|

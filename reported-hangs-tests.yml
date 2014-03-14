@@ -1,0 +1,32 @@
+--- 
+comment: |
+  Tests hang, OS independent
+disabled: 1
+match:
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |Net-Whois-Raw-2.51 #https://rt.cpan.org/Ticket/Display.html?id=85017
+    |HTTP-ProxySelector-Persistent-0.02 #https://rt.cpan.org/Ticket/Display.html?id=85390
+    |Net-Statsd-Server-0.10 #reported
+    |IO-File-Log-1.01 #cfrmd https://rt.cpan.org/Ticket/Display.html?id=34778
+    |Net-IPMessenger-Bot-0.02 #https://github.com/hayajo/p5-Net-IPMessenger-Bot/issues/1
+    |App-Prove-Plugin-Cluster-0.02 #https://rt.cpan.org/Ticket/Display.html?id=82096
+    |NRD-Daemon-0.04 #https://rt.cpan.org/Ticket/Display.html?id=82716
+    |Module-AutoLoad-0.01 #https://rt.cpan.org/Ticket/Display.html?id=86370
+    |Bot-Net-0.1.0 #https://rt.cpan.org/Ticket/Display.html?id=41231
+    )|
+
+--- 
+comment: |
+  Tests hang on perl 5.18.x
+disabled: 1
+match:
+  perlconfig:
+    version: '5\.18\.\d'
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |Sub-Call-Tail-0.05 #https://rt.cpan.org/Ticket/Display.html?id=81860
+    )|
+

@@ -1,0 +1,23 @@
+--- 
+comment: |
+  Asks questions in Makefile.PL/Build.PL
+disabled: 1
+match:
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+
+    #.pl
+    |Bio-BigFile #https://rt.cpan.org/Ticket/Display.html?id=56916
+    |WWW-Autosite-1.08 #https://rt.cpan.org/Ticket/Display.html?id=35081 , not visible
+    |PDL-SVDLIBC-0.07 #https://rt.cpan.org/Ticket/Display.html?id=88972
+    |DbFramework-1.12 #https://rt.cpan.org/Ticket/Display.html?id=90022
+    |Template-Plugin-Latex-3.05 #https://rt.cpan.org/Ticket/Display.html?id=93419
+    |Apache-ProxyScan-0.92 #inf. loop https://rt.cpan.org/Ticket/Display.html?id=93854
+
+    #make/Build stage
+    |Alien-LibGumbo-0.02 #https://rt.cpan.org/Ticket/Display.html?id=89087 #Windows only
+    |Alien-Sodium-0.01 #https://rt.cpan.org/Ticket/Display.html?id=92799 #Windows only
+    |TripleStore-0.03 #cf https://rt.cpan.org/Public/Bug/Display.html?id=34531
+
+    )|

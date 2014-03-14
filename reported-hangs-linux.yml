@@ -1,0 +1,43 @@
+--- 
+comment: |
+  Tests hang on Linux
+disabled: 1
+match:
+  perlconfig:
+    osname: linux
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    #make
+
+    #tests
+    |PDL-Graphics-Simple-1.005 #https://rt.cpan.org/Ticket/Display.html?id=86275
+    |Plack-Server-AnyEvent-Server-Starter-0.00002 #https://rt.cpan.org/Ticket/Display.html?id=85939
+    |IO-Pty-HalfDuplex-0.02  #https://rt.cpan.org/Ticket/Display.html?id=85927
+    |POE-Loop-AnyEvent-0.004 #https://rt.cpan.org/Ticket/Display.html?id=85920
+    |Net-Netcat-0.05 #https://rt.cpan.org/Ticket/Display.html?id=82357
+    |Emacs-EPL-0.7 #https://rt.cpan.org/Public/Bug/Display.html?id=34724
+    |Test-WWW-Simple-0.34 #https://rt.cpan.org/Ticket/Display.html?id=86312
+    |POE-Loop-EV-0.06 #https://rt.cpan.org/Ticket/Display.html?id=73405
+    |App-SD-0.75 #https://rt.cpan.org/Ticket/Display.html?id=86399
+    |AnyEvent-ZeroMQ-0.01 #https://rt.cpan.org/Ticket/Display.html?id=86481
+    |WWW-Hashdb-0.01 #https://rt.cpan.org/Ticket/Display.html?id=86502
+    |Win32-Script-0.58 #https://rt.cpan.org/Ticket/Display.html?id=82832
+    |Math-TrulyRandom-1.0 #https://rt.cpan.org/Public/Bug/Display.html?id=34693
+    |Net-Server-SS-PreFork-0.05 #dep missing https://rt.cpan.org/Ticket/Display.html?id=92169
+    |Compiler-Parser-0.08 #https://github.com/goccy/p5-Compiler-Parser/issues/13
+    |AnyEvent-IRC-Server-0.03 #https://github.com/kan/p5-anyevent-irc-server/issues/5
+    )|
+--- 
+comment: |
+  Tests hang on Linux, perl 5.18.x
+disabled: 1
+match:
+  perlconfig:
+    osname: linux
+    version: '5\.18\.\d+'
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |Scriptalicious-1.16 #https://rt.cpan.org/Ticket/Display.html?id=85999
+    )|

@@ -1,0 +1,13 @@
+--- 
+comment: |
+  Bad dists, usually with incorrect permissions
+disabled: 1
+match:
+  perlconfig:
+    osname: linux
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |Tcl-1.02_50 #cf https://rt.cpan.org/Ticket/Display.html?id=84635
+    )|
+
