@@ -79,6 +79,8 @@ match:
     |Net-SeedServe-v0.2.4 #https://rt.cpan.org/Ticket/Display.html?id=92621
     |AnyEvent-WebSocket-Server-0.03 #https://rt.cpan.org/Ticket/Display.html?id=91158, depends on module
     |Mail-SpamAssassin-3.4.0 #https://issues.apache.org/SpamAssassin/show_bug.cgi?id=7000
+    |Config-Hierarchical-0.13.9 #https://rt.cpan.org/Ticket/Display.html?id=94193
+    |Memcached-Server-0.04 #https://rt.cpan.org/Ticket/Display.html?id=91703
 
     #00-compile.t
     |App-SuperviseMe-0.004 #https://github.com/melo/App-SuperviseMe/issues/1
@@ -106,7 +108,6 @@ match:
     /(?x:
     .^   # never matches, only purpose is to let things align nicely
     |Event-RPC-1.05 #https://rt.cpan.org/Ticket/Display.html?id=87400
-    |Memcached-Server-0.04 #https://rt.cpan.org/Ticket/Display.html?id=91703
     |CPAN-FindDependencies-2.42 #https://rt.cpan.org/Ticket/Display.html?id=93161
     )|
 

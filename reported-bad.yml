@@ -26,6 +26,10 @@ match:
     |URL-RegexMatching-1.1 #https://rt.cpan.org/Ticket/Display.html?id=92888
     |Text-BSV-1.04 #https://rt.cpan.org/Ticket/Display.html?id=93685
     |AI-SimulatedAnnealing-1.02 #https://rt.cpan.org/Ticket/Display.html?id=93686
+    |File-OSS-Scan-0.01 #https://rt.cpan.org/Ticket/Display.html?id=94056
+    |Data-SExpression-Xen-0.0.2 #https://rt.cpan.org/Ticket/Display.html?id=94058
+    |Annelidous-snapshot-20090727 #https://rt.cpan.org/Ticket/Display.html?id=94059
+    |Bio-BioVeL-0.1 #https://rt.cpan.org/Ticket/Display.html?id=94317
 
     #incorrect directory structure
     |WWW-Wuala-00.1 #https://rt.cpan.org/Ticket/Display.html?id=92886

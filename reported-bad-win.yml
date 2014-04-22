@@ -25,7 +25,17 @@ match:
     |Test-CheckChanges-0.14 #https://rt.cpan.org/Ticket/Display.html?id=62644
     |Parse-Extract-Net-MAC48-0.01 #cyclic symlink https://rt.cpan.org/Ticket/Display.html?id=93691
 
+    #files that differ only in case
+    |pake-0.21 #https://rt.cpan.org/Ticket/Display.html?id=94061
+    |EJBCA-CrlPublish-0.4.1 #https://rt.cpan.org/Ticket/Display.html?id=94062
+    |EJBCA-CrlPublish-0.60
+    |Emacs-PDE-0.2.16 #https://rt.cpan.org/Ticket/Display.html?id=94065
+
     #bad chars
     |POD-Credentials-0.04 #https://rt.cpan.org/Ticket/Display.html?id=93692
+    |XML-Handler-ExtOn-0.06  #https://rt.cpan.org/Ticket/Display.html?id=94063
+    |Tk-JFileDialog-1.4 #https://rt.cpan.org/Ticket/Display.html?id=94064
+    |Mojolicious-Plugin-Responsinator-0.02 #https://github.com/jhthorsen/mojolicious-plugin-responsinator/issues/1
+    |HTML-WebDAO-0.91 #https://rt.cpan.org/Ticket/Display.html?id=94671
 
     )|

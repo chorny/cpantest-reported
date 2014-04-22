@@ -14,6 +14,13 @@ match:
     |DbFramework-1.12 #https://rt.cpan.org/Ticket/Display.html?id=90022
     |Template-Plugin-Latex-3.05 #https://rt.cpan.org/Ticket/Display.html?id=93419
     |Apache-ProxyScan-0.92 #inf. loop https://rt.cpan.org/Ticket/Display.html?id=93854
+    |Date-Business-1.2 #https://rt.cpan.org/Ticket/Display.html?id=94415
+    |CGI-Debug-1.0 #https://rt.cpan.org/Ticket/Display.html?id=94416
+    |Math-Matlab-0.08 #https://rt.cpan.org/Ticket/Display.html?id=94427
+    |Net-LDAPapi-3.0.3 #https://rt.cpan.org/Ticket/Display.html?id=94428
+    |Agent-3.20 #https://rt.cpan.org/Ticket/Display.html?id=94430
+    |Replication-Recall-1.6 #https://rt.cpan.org/Ticket/Display.html?id=94450
+    |Authen-Krb5-Easy-0.90 #https://rt.cpan.org/Ticket/Display.html?id=94454
 
     #make/Build stage
     |Alien-LibGumbo-0.02 #https://rt.cpan.org/Ticket/Display.html?id=89087 #Windows only
