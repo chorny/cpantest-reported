@@ -15,6 +15,8 @@ match:
     |NRD-Daemon-0.04 #https://rt.cpan.org/Ticket/Display.html?id=82716
     |Module-AutoLoad-0.01 #https://rt.cpan.org/Ticket/Display.html?id=86370
     |Bot-Net-0.1.0 #https://rt.cpan.org/Ticket/Display.html?id=41231
+    |Net-Prober-0.12 #https://rt.cpan.org/Ticket/Display.html?id=95260
+    |Net-Random-2.31 #sometimes VERY slow https://rt.cpan.org/Ticket/Display.html?id=93048
     )|
 
 --- 

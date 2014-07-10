@@ -22,4 +22,7 @@ match:
     |Plagger-0.5.4
     |Plagger-0.5.7
     |makepp-1.50-cvs-070506 #https://sourceforge.net/p/makepp/bugs/32/
+    |Finance-BitStamp-API-0.01 #https://rt.cpan.org/Ticket/Display.html?id=96457
+    |CAE-Nastran-Nasmod-0.23 #https://rt.cpan.org/Ticket/Display.html?id=96462
+    |CAE-Nastran-Nasmod-0.22
     )|

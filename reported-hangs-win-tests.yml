@@ -77,10 +77,20 @@ match:
     |POE-Loop-IO_Async-0.004 #https://rt.cpan.org/Ticket/Display.html?id=91728
     |AlignAid-v0.0.2 #https://rt.cpan.org/Ticket/Display.html?id=92063
     |Net-SeedServe-v0.2.4 #https://rt.cpan.org/Ticket/Display.html?id=92621
-    |AnyEvent-WebSocket-Server-0.03 #https://rt.cpan.org/Ticket/Display.html?id=91158, depends on module
+    |AnyEvent-WebSocket-Server-0.04 #https://rt.cpan.org/Ticket/Display.html?id=91158, depends on module
     |Mail-SpamAssassin-3.4.0 #https://issues.apache.org/SpamAssassin/show_bug.cgi?id=7000
     |Config-Hierarchical-0.13.9 #https://rt.cpan.org/Ticket/Display.html?id=94193
     |Memcached-Server-0.04 #https://rt.cpan.org/Ticket/Display.html?id=91703
+    |Chef-REST-Client-1.1.tar.gz #https://github.com/github4bhavin/ChefRESTClient/pull/2
+    |Test-Class-Moose-0.55-TRIAL #https://github.com/Ovid/test-class-moose/issues/36
+    |Mythfs-perl-1.33 #https://github.com/lstein/mythfs-perl/pull/2
+    |Filter-Rijndael-0.02 #https://rt.cpan.org/Ticket/Display.html?id=96397
+    |Test-Harness-FileFilter-0.01 #https://rt.cpan.org/Ticket/Display.html?id=34924
+    |App-Colorist-0.141740 #https://rt.cpan.org/Ticket/Display.html?id=96700
+    |Protocol-Gearman-0.04 #https://rt.cpan.org/Ticket/Display.html?id=96946
+    |POE-Component-IKC-0.2401 #https://rt.cpan.org/Ticket/Display.html?id=96789
+    |RDF-Endpoint-0.06 #https://rt.cpan.org/Ticket/Display.html?id=96906
+    |Proc-Pidfile-1.06 #https://rt.cpan.org/Ticket/Display.html?id=96998
 
     #00-compile.t
     |App-SuperviseMe-0.004 #https://github.com/melo/App-SuperviseMe/issues/1
