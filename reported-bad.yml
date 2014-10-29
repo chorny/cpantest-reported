@@ -7,18 +7,18 @@ match:
     /(?x:
     .^   # never matches, only purpose is to let things align nicely
     |Coro-Amazon-SimpleDB-0.04 #https://rt.cpan.org/Ticket/Display.html?id=82281
-    |Speech-Google-0.5 #https://rt.cpan.org/Ticket/Display.html?id=85069
-    |HPPPM-Demand-Management-0.02 #https://rt.cpan.org/Ticket/Display.html?id=86011
     |downsexta-0.2-2 #https://rt.cpan.org/Ticket/Display.html?id=87944
     |Term-Menus-FromFile-1.0.0 #https://rt.cpan.org/Ticket/Display.html?id=88038
-    |WebService-ShiftPlanning-0.02 #https://rt.cpan.org/Ticket/Display.html?id=90336
+    |WebService-ShiftPlanning-0.02 #no packages https://rt.cpan.org/Ticket/Display.html?id=90336
     |App-githook-perltidy-0.11.1_4 #https://rt.cpan.org/Ticket/Display.html?id=90338
-    |WWW-InstaMapper-0.02 #https://rt.cpan.org/Ticket/Display.html?id=91566
-    |Net-UCP-0.42 #https://rt.cpan.org/Ticket/Display.html?id=91567
-    |PPI-Prettify-0.03 #https://rt.cpan.org/Ticket/Display.html?id=92243
+    |WWW-InstaMapper-0.02 #not in index https://rt.cpan.org/Ticket/Display.html?id=91566
+    |Net-UCP-0.42 #not in index https://rt.cpan.org/Ticket/Display.html?id=91567
+
+    #Mac files
 
     #bad archive
-    |Log-Funlog-0.89 #https://rt.cpan.org/Ticket/Display.html?id=93689
+    |Log-Funlog-0.89 #not in index https://rt.cpan.org/Ticket/Display.html?id=93689
+    |Appium-0.02 #https://github.com/appium/perl-client/issues/4
 
     #no .PL
     |API-ReviewBoard-0.1 #https://rt.cpan.org/Ticket/Display.html?id=92245
@@ -26,13 +26,11 @@ match:
     |URL-RegexMatching-1.1 #https://rt.cpan.org/Ticket/Display.html?id=92888
     |Text-BSV-1.04 #https://rt.cpan.org/Ticket/Display.html?id=93685
     |AI-SimulatedAnnealing-1.02 #https://rt.cpan.org/Ticket/Display.html?id=93686
-    |File-OSS-Scan-0.01 #https://rt.cpan.org/Ticket/Display.html?id=94056
     |Data-SExpression-Xen-0.0.2 #https://rt.cpan.org/Ticket/Display.html?id=94058
     |Annelidous-snapshot-20090727 #https://rt.cpan.org/Ticket/Display.html?id=94059
     |Bio-BioVeL-0.1 #https://rt.cpan.org/Ticket/Display.html?id=94317
     |dmake-4.12.2.2 #https://rt.cpan.org/Ticket/Display.html?id=95273
     |Continuity-Widget-0.01 #https://rt.cpan.org/Ticket/Display.html?id=95274
-    |Text-PageLayout-0.03 #https://rt.cpan.org/Ticket/Display.html?id=96460
     |Crypt-XXTEA-1.00 #https://rt.cpan.org/Ticket/Display.html?id=55247
     |PGForth1.3 #https://rt.cpan.org/Ticket/Display.html?id=97041
 
@@ -43,7 +41,6 @@ match:
     |ScatterPlot-0_2 #https://rt.cpan.org/Ticket/Display.html?id=97042
 
     #circular dependency
-    |App-Kit-0.61 #https://rt.cpan.org/Ticket/Display.html?id=91462
-    |Xporter-0.0.6 #https://rt.cpan.org/Ticket/Display.html?id=91856
     |qbit-0.9 #https://rt.cpan.org/Ticket/Display.html?id=95622
+    |WWW-Kosoku-API-0.09 #https://github.com/sue7ga/WWW-Kosoku-API/issues/1
     )|

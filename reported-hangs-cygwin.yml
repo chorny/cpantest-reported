@@ -8,7 +8,8 @@ match:
   distribution: |
     /(?x:
     .^   # never matches, only purpose is to let things align nicely
-    |Glib-1.304 #https://rt.cpan.org/Ticket/Display.html?id=84242
-    |Test-SharedFork-0.21  #https://rt.cpan.org/Ticket/Display.html?id=79226
+    |Glib-1.305 #https://rt.cpan.org/Ticket/Display.html?id=84242
+    |Test-SharedFork-0.29  #https://rt.cpan.org/Ticket/Display.html?id=79226
     |Image-Thumbnail-0.66 #https://rt.cpan.org/Ticket/Display.html?id=84302
+    |WWW-Scraper-ISBN-Booktopia_Driver-0.19 #https://github.com/barbie/www-scraper-isbn-booktopia_driver/pull/1
     )|

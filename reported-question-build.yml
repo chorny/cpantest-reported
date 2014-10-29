@@ -8,11 +8,9 @@ match:
     .^   # never matches, only purpose is to let things align nicely
 
     #.pl
-    |Bio-BigFile #https://rt.cpan.org/Ticket/Display.html?id=56916
+    |Bio-BigFile-1.07 #https://rt.cpan.org/Ticket/Display.html?id=56916
     |WWW-Autosite-1.08 #https://rt.cpan.org/Ticket/Display.html?id=35081 , not visible
-    |PDL-SVDLIBC-0.07 #https://rt.cpan.org/Ticket/Display.html?id=88972
     |DbFramework-1.12 #https://rt.cpan.org/Ticket/Display.html?id=90022
-    |Template-Plugin-Latex-3.05 #https://rt.cpan.org/Ticket/Display.html?id=93419
     |Apache-ProxyScan-0.92 #inf. loop https://rt.cpan.org/Ticket/Display.html?id=93854
     |Date-Business-1.2 #https://rt.cpan.org/Ticket/Display.html?id=94415
     |CGI-Debug-1.0 #https://rt.cpan.org/Ticket/Display.html?id=94416
@@ -21,7 +19,6 @@ match:
     |Agent-3.20 #https://rt.cpan.org/Ticket/Display.html?id=94430
     |Replication-Recall-1.6 #https://rt.cpan.org/Ticket/Display.html?id=94450
     |Authen-Krb5-Easy-0.90 #https://rt.cpan.org/Ticket/Display.html?id=94454
-    |Future-0.28 #https://rt.cpan.org/Ticket/Display.html?id=96409
 
     #make/Build stage
     |Alien-LibGumbo-0.02 #https://rt.cpan.org/Ticket/Display.html?id=89087 #Windows only

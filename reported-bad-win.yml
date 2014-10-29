@@ -13,12 +13,9 @@ match:
     |WWW-RenRen-0.37 #https://rt.cpan.org/Ticket/Display.html?id=86013
     |File-DirCompare-0.7 #https://rt.cpan.org/Ticket/Display.html?id=86024
     |SystemTray-Applet-Win32-0.02 #recursive dependency, https://rt.cpan.org/Ticket/Display.html?id=82684
-    |Business-CompanyDesignator-0.03 #https://rt.cpan.org/Ticket/Display.html?id=90337
     |WebService-Gyazo-0.02 #https://github.com/maximusfox/WebService--Gyazo/issues/1
-    |Test-Builder-Clutch-0.05 #https://rt.cpan.org/Ticket/Display.html?id=90339
     |JavaBin-0.6 #https://github.com/JRaspass/JavaBin/issues/1
     |HTTP-CDN-0.7 #https://rt.cpan.org/Ticket/Display.html?id=90485
-    |CracTools-core-1.01 #https://rt.cpan.org/Ticket/Display.html?id=91563
     |digitagCT-1.01 #https://rt.cpan.org/Ticket/Display.html?id=91564
     |MySQL-Replication-0.0.2 #https://rt.cpan.org/Ticket/Display.html?id=92244
     |Finance-Bank-Cahoot-1.07 #https://rt.cpan.org/Ticket/Display.html?id=93687
@@ -30,8 +27,7 @@ match:
 
     #files that differ only in case
     |pake-0.21 #https://rt.cpan.org/Ticket/Display.html?id=94061
-    |EJBCA-CrlPublish-0.4.1 #https://rt.cpan.org/Ticket/Display.html?id=94062
-    |EJBCA-CrlPublish-0.60
+    |EJBCA-CrlPublish-0.60 #https://rt.cpan.org/Ticket/Display.html?id=94062
     |Emacs-PDE-0.2.16 #https://rt.cpan.org/Ticket/Display.html?id=94065
 
     #bad chars

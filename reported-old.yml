@@ -6,23 +6,16 @@ match:
   distribution: |
     /(?x:
     .^   # never matches, only purpose is to let things align nicely
-    |Lemonldap-NG-Portal-0.90 #https://rt.cpan.org/Ticket/Display.html?id=94057
     |LWPx-TimedHTTP-1.4 #https://rt.cpan.org/Ticket/Display.html?id=83025
     |Module-Pluggable-Singleton-0.02.3 #https://rt.cpan.org/Ticket/Display.html?id=86025
-    |Algorithm-DependencySolver-0.1 #https://rt.cpan.org/Ticket/Display.html?id=87670
     |WebService-Bitly-0.04 #https://rt.cpan.org/Ticket/Display.html?id=82749
     |DbFramework-1.10 #https://rt.cpan.org/Public/Bug/Display.html?id=34541
-    |DBIx-Class-Relationship-Predicate-0.04 #https://github.com/wreis/DBIC-Relationship-Predicate/issues/1
-    |IO-Async-0.59 #https://rt.cpan.org/Ticket/Display.html?id=92210
     |DJabberd-0.81 #https://rt.cpan.org/Ticket/Display.html?id=92209
-    |Poet-0.03 #https://rt.cpan.org/Ticket/Display.html?id=92208
     |Plagger-0.7.1 #https://rt.cpan.org/Ticket/Display.html?id=82863
     |Plagger-0.6.5
     |Plagger-0.5.2
     |Plagger-0.5.4
     |Plagger-0.5.7
-    |makepp-1.50-cvs-070506 #https://sourceforge.net/p/makepp/bugs/32/
     |Finance-BitStamp-API-0.01 #https://rt.cpan.org/Ticket/Display.html?id=96457
-    |CAE-Nastran-Nasmod-0.23 #https://rt.cpan.org/Ticket/Display.html?id=96462
-    |CAE-Nastran-Nasmod-0.22
+    |Net-UCP-0.41 #https://rt.cpan.org/Ticket/Display.html?id=98102
     )|

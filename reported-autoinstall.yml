@@ -10,7 +10,6 @@ match:
     |Lingua-EN-Segmenter-0.1 #https://rt.cpan.org/Ticket/Display.html?id=25155
     |ASNMTAP-3.002003 #https://rt.cpan.org/Ticket/Display.html?id=82201
     |Wiki-Gateway-0.001991 #https://rt.cpan.org/Ticket/Display.html?id=86800
-    |Cache-Memcached-Queue-0.1.4 #https://rt.cpan.org/Ticket/Display.html?id=87452
     |Email-Send-TheSchwartz-0.01 #https://rt.cpan.org/Ticket/Display.html?id=82973
     |Test-Chimps-0.07 #https://rt.cpan.org/Ticket/Display.html?id=82982
     |Lingua-LinkParser-FindPath-0.01 #https://rt.cpan.org/Ticket/Display.html?id=82868
@@ -19,11 +18,7 @@ match:
     |HoneyClient-Manager-0.99 #https://rt.cpan.org/Ticket/Display.html?id=82840
     |HoneyClient-Util-0.98-stable #https://rt.cpan.org/Ticket/Display.html?id=82839
     |Devel-ebug-HTTP-0.32 #https://rt.cpan.org/Public/Bug/Display.html?id=40599
-    |Plucene-Analysis-CJKAnalyzer-0.02 #https://rt.cpan.org/Ticket/Display.html?id=87916
     |RT-Client-0.01 #https://rt.cpan.org/Ticket/Display.html?id=91404
     |Task-Math-Symbolic-1.01 #https://rt.cpan.org/Ticket/Display.html?id=94302
-    |Task-Git-LongList1-0.03 #https://rt.cpan.org/Ticket/Display.html?id=94932
     |Voting-VoteFairRanking-5.01 #https://rt.cpan.org/Ticket/Display.html?id=95558
-
-    |Frivolity-0.7.1 #https://rt.cpan.org/Ticket/Display.html?id=82841
     )|
