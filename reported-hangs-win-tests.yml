@@ -8,19 +8,16 @@ match:
   distribution: |
     /(?x:
     .^   # never matches, only purpose is to let things align nicely
-    |Sys-Cmd-0.81.6 #https://rt.cpan.org/Ticket/Display.html?id=85410
-    |Net-Statsd-Server-0.17 #https://rt.cpan.org/Ticket/Display.html?id=83062
+    #|Sys-Cmd-0.81.8 #https://rt.cpan.org/Ticket/Display.html?id=85410
+    |Net-Statsd-Server-0.19 #https://rt.cpan.org/Ticket/Display.html?id=83062
     |Term-Shell-0.06 #https://rt.cpan.org/Ticket/Display.html?id=40771
-    |IO-Pipe-Producer-2.0 #https://rt.cpan.org/Ticket/Display.html?id=87475
-
-    |Jedi-0.10 #https://github.com/celogeek/perl-jedi/issues/1
+    |IO-Pipe-Producer-2.01 #https://rt.cpan.org/Ticket/Display.html?id=87475
 
     |Device-CableModem-SURFboard-0.04 #https://rt.cpan.org/Ticket/Display.html?id=85377
     |HTML-XSSLint-0.01 #https://rt.cpan.org/Ticket/Display.html?id=85005
     |AnyEvent-Process-0.01 #https://rt.cpan.org/Ticket/Display.html?id=82501
     |WWW-Slides-0.0.9 #https://rt.cpan.org/Ticket/Display.html?id=85396
     |MojoX-Renderer-Alloy-1.121150 #out of memory. Not on Linux. https://rt.cpan.org/Ticket/Display.html?id=82661
-    |TAP-Formatter-JUnit-0.09 #https://rt.cpan.org/Ticket/Display.html?id=81200
     |HTML-Expander-2.7 #https://rt.cpan.org/Ticket/Display.html?id=82949
     |CGI-Snapp-1.08 #https://rt.cpan.org/Ticket/Display.html?id=81241
     |OpenERP-XMLRPC-Simple-0.14   #https://rt.cpan.org/Ticket/Display.html?id=83748
@@ -29,12 +26,10 @@ match:
     |IPC-PerlSSH-0.16 #https://rt.cpan.org/Ticket/Display.html?id=82136
     |LWPx-TimedHTTP-1.8 #https://rt.cpan.org/Ticket/Display.html?id=83275
     |AnyEvent-SMTP-0.10 #https://rt.cpan.org/Ticket/Display.html?id=82690
-    |Plack-Test-Agent-1.20111011 #https://rt.cpan.org/Ticket/Display.html?id=81417
     |OurNet-BBSAgent-1.61 #https://rt.cpan.org/Ticket/Display.html?id=81540
     |Test-WWW-Simple-0.34 #cnfrmd https://rt.cpan.org/Public/Bug/Display.html?id=82970
     |IO-BindHandles-0.006   #https://rt.cpan.org/Ticket/Display.html?id=83822
     |POEx-HTTP-Server-0.0902 #https://rt.cpan.org/Ticket/Display.html?id=82116
-    |POE-Component-MessageQueue-0.3000 #https://github.com/ironcamel/POE-Component-MessageQueue/issues/5
     |HTTP-Server-Simple-Recorder-0.03 #https://rt.cpan.org/Ticket/Display.html?id=81721
     |Message-Passing-Output-WebHooks-0.008 #https://rt.cpan.org/Ticket/Display.html?id=87349
     |Object-Remote-0.003002 #https://rt.cpan.org/Ticket/Display.html?id=82066
@@ -47,49 +42,49 @@ match:
     |Getopt-Tree-1.12 #https://rt.cpan.org/Ticket/Display.html?id=82758
     |Term-TtyRec-0.03 #https://rt.cpan.org/Ticket/Display.html?id=83065
     |POE-Loop-AnyEvent-0.004 #https://rt.cpan.org/Ticket/Display.html?id=82143
-    |Schedule-Pluggable-0.0.6 #https://rt.cpan.org/Ticket/Display.html?id=87704
+    |Schedule-Pluggable-0.0.7 #https://rt.cpan.org/Ticket/Display.html?id=87704
     |Data-TDMA-0.2 #https://rt.cpan.org/Ticket/Display.html?id=88914
-    |Protocol-CassandraCQL-0.11 #https://rt.cpan.org/Ticket/Display.html?id=88926
-    |AnyEvent-Plackup-0.01 #https://github.com/motemen/perl5-AnyEvent-Plackup/issues/1
-    |JSON-RPC2-AnyEvent-0.01  #https://github.com/Maki-Daisuke/p5-JSON-RPC2-AnyEvent/issues/1
     |DJabberd-0.85 #cf https://rt.cpan.org/Ticket/Display.html?id=83023
     |IO-Async-Loop-Event-0.02 #https://rt.cpan.org/Ticket/Display.html?id=89726
     |IO-Async-Loop-EV-0.02 #https://rt.cpan.org/Ticket/Display.html?id=89734
-    |Twiggy-0.1024 #https://github.com/miyagawa/Twiggy/issues/38
-    |App-RunCron-0.07 #https://github.com/Songmu/p5-App-RunCron/issues/2
+    |Twiggy-0.1025 #https://github.com/miyagawa/Twiggy/issues/38
+    |App-RunCron-0.08 #https://github.com/Songmu/p5-App-RunCron/issues/2
     |Monitor-Simple-0.2.8 #https://github.com/msenger/Monitor-Simple/issues/3
     |IPC-Locker-1.492 #http://www.veripool.org/projects/ipc-locker/issues
-    |IO-Socket-Socks-Wrapper-0.09 #https://github.com/olegwtf/p5-IO-Socket-Socks-Wrapper/pull/1
-    |Sys-Sendfile-0.12 #https://rt.cpan.org/Ticket/Display.html?id=84956
     |IO-Async-Loop-POE-0.05 #https://rt.cpan.org/Ticket/Display.html?id=91589
     |Gearman-Driver-0.02008 #https://rt.cpan.org/Ticket/Display.html?id=91669
-    |Juno-0.009 #https://github.com/xsawyerx/juno/pull/2
     |POE-Loop-IO_Async-0.004 #https://rt.cpan.org/Ticket/Display.html?id=91728
     |AlignAid-v0.0.2 #https://rt.cpan.org/Ticket/Display.html?id=92063
     |Net-SeedServe-v0.2.4 #https://rt.cpan.org/Ticket/Display.html?id=92621
-    |AnyEvent-WebSocket-Server-0.04 #https://rt.cpan.org/Ticket/Display.html?id=91158, depends on module
+    |AnyEvent-WebSocket-Server-0.05 #https://rt.cpan.org/Ticket/Display.html?id=91158, depends on module
     |Mail-SpamAssassin-3.4.0 #https://issues.apache.org/SpamAssassin/show_bug.cgi?id=7000
     |Config-Hierarchical-0.13.9 #https://rt.cpan.org/Ticket/Display.html?id=94193
     |Memcached-Server-0.04 #https://rt.cpan.org/Ticket/Display.html?id=91703
-    |Chef-REST-Client-1.1.tar.gz #https://github.com/github4bhavin/ChefRESTClient/pull/2
-    |Test-Class-Moose-0.55-TRIAL #https://github.com/Ovid/test-class-moose/issues/36
     |Mythfs-perl-1.33 #https://github.com/lstein/mythfs-perl/pull/2
     |Test-Harness-FileFilter-0.01 #https://rt.cpan.org/Ticket/Display.html?id=34924
     |Protocol-Gearman-0.04 #https://rt.cpan.org/Ticket/Display.html?id=96946
     |RDF-Endpoint-0.07 #https://rt.cpan.org/Ticket/Display.html?id=96906
     |Proc-Pidfile-1.06 #https://rt.cpan.org/Ticket/Display.html?id=96998
-    |Inline-C-0.62_03 #https://github.com/ingydotnet/inline-c-pm/issues/21
-    |Inline-C-0.62 #https://github.com/ingydotnet/inline-c-pm/issues/21
     |Git-FastExport-0.105 #https://rt.cpan.org/Ticket/Display.html?id=94608
-    |Plack-App-GitSmartHttp-0.05 #https://rt.cpan.org/Ticket/Display.html?id=98040
+    |Plack-App-GitSmartHttp-0.07 #https://rt.cpan.org/Ticket/Display.html?id=98040
     |Time-StasisField-0.01 #https://rt.cpan.org/Ticket/Display.html?id=98347
-    |App-perlrdf-0.006 #https://rt.cpan.org/Ticket/Display.html?id=99158
     |Porbo-0.01 #https://github.com/memememomo/Porbo/issues/1
-    |Carp-Proxy-0.09 #https://rt.cpan.org/Ticket/Display.html?id=99856
+    |Net-Proxy-0.13 #https://rt.cpan.org/Ticket/Display.html?id=100007
+    |POE-Component-SSLify-1.012 #https://rt.cpan.org/Ticket/Display.html?id=100316
+    |MogileFS-Server-2.72 #https://github.com/mogilefs/MogileFS-Server/pull/36
+    |Net-HL7-0.80 #https://rt.cpan.org/Ticket/Display.html?id=101848
+    |File-Blarf-0.12 #https://github.com/gittex/File-Blarf/issues/1
+    |App-Unliner-0.020 #https://github.com/hoytech/unliner/issues/1 https://github.com/hoytech/unliner/pull/3
 
     #00-compile.t
     |App-SuperviseMe-0.004 #https://github.com/melo/App-SuperviseMe/issues/1
     |Dist-Zilla-Plugin-ReportVersions-Tiny-1.10 #https://github.com/dolmen/p5-Dist-Zilla-Plugin-ReportVersions-Tiny/pull/8
+    |TPath-Forester-Ref-0.004 #https://rt.cpan.org/Ticket/Display.html?id=100012
+
+    |Tk-ObjEditor-2.009 #https://rt.cpan.org/Ticket/Display.html?id=99999
+    #|App-bif-0.1.4
+    |File-Flock-2014.01 #https://rt.cpan.org/Ticket/Display.html?id=8595
+
 
     #questions in tests
 
@@ -114,20 +109,6 @@ match:
     .^   # never matches, only purpose is to let things align nicely
     |Event-RPC-1.05 #https://rt.cpan.org/Ticket/Display.html?id=87400
     |CPAN-FindDependencies-2.42 #https://rt.cpan.org/Ticket/Display.html?id=93161
-    )|
-
---- 
-comment: |
-  Tests hang on perl 5.16.x
-disabled: 1
-match:
-  perlconfig:
-    osname: MSWin32
-    version: '5\.16\.\d'
-  distribution: |
-    /(?x:
-    .^   # never matches, only purpose is to let things align nicely
-    |App-Unliner-0.011 #https://github.com/hoytech/unliner/issues/1
     )|
 
 --- 

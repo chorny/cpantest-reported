@@ -9,16 +9,16 @@ match:
     |Coro-Amazon-SimpleDB-0.04 #https://rt.cpan.org/Ticket/Display.html?id=82281
     |downsexta-0.2-2 #https://rt.cpan.org/Ticket/Display.html?id=87944
     |Term-Menus-FromFile-1.0.0 #https://rt.cpan.org/Ticket/Display.html?id=88038
-    |WebService-ShiftPlanning-0.02 #no packages https://rt.cpan.org/Ticket/Display.html?id=90336
+    |WebService-ShiftPlanning-0.02 #no packages - not in index https://rt.cpan.org/Ticket/Display.html?id=90336
     |App-githook-perltidy-0.11.1_4 #https://rt.cpan.org/Ticket/Display.html?id=90338
     |WWW-InstaMapper-0.02 #not in index https://rt.cpan.org/Ticket/Display.html?id=91566
     |Net-UCP-0.42 #not in index https://rt.cpan.org/Ticket/Display.html?id=91567
+    |WWW-Mediawiki-Client-0.32 #not in index https://rt.cpan.org/Ticket/Display.html?id=101059
 
     #Mac files
 
     #bad archive
     |Log-Funlog-0.89 #not in index https://rt.cpan.org/Ticket/Display.html?id=93689
-    |Appium-0.02 #https://github.com/appium/perl-client/issues/4
 
     #no .PL
     |API-ReviewBoard-0.1 #https://rt.cpan.org/Ticket/Display.html?id=92245
@@ -33,14 +33,26 @@ match:
     |Continuity-Widget-0.01 #https://rt.cpan.org/Ticket/Display.html?id=95274
     |Crypt-XXTEA-1.00 #https://rt.cpan.org/Ticket/Display.html?id=55247
     |PGForth1.3 #https://rt.cpan.org/Ticket/Display.html?id=97041
+    |Catalyst-Plugin-Imager-0.01 #https://rt.cpan.org/Ticket/Display.html?id=101048
 
     #incorrect directory structure
     |WWW-Wuala-00.1 #https://rt.cpan.org/Ticket/Display.html?id=92886
-    |STRYTOAST/log.tar.gz #https://rt.cpan.org/Ticket/Display.html?id=95063
+    |STRYTOAST/log.tar.gz #not in index https://rt.cpan.org/Ticket/Display.html?id=95063
     |Getopt-ExPar-1.01 #https://rt.cpan.org/Ticket/Display.html?id=96463
     |ScatterPlot-0_2 #https://rt.cpan.org/Ticket/Display.html?id=97042
+    |Archive-ZZip-0.13 #https://rt.cpan.org/Ticket/Display.html?id=101051
+    |SMS_API_4.01.1 #https://rt.cpan.org/Ticket/Display.html?id=101053
+    |PDF-CreateSimple-1-1 #https://rt.cpan.org/Ticket/Display.html?id=101054
+    |Geo-Coder-Canada-0.01 #https://rt.cpan.org/Ticket/Display.html?id=102722
 
     #circular dependency
     |qbit-0.9 #https://rt.cpan.org/Ticket/Display.html?id=95622
     |WWW-Kosoku-API-0.09 #https://github.com/sue7ga/WWW-Kosoku-API/issues/1
+    |Gtk2-Ex-ICal-Recur-0.06 #https://rt.cpan.org/Ticket/Display.html?id=101052
+    |MP3-Album-0.14 #https://rt.cpan.org/Ticket/Display.html?id=102169
+
+    #empty
+    |DateLocale-1.29 #not in index https://rt.cpan.org/Ticket/Display.html?id=99922
+    |Mojo-IOLoop-ProcBackground-0.05 #not in index https://rt.cpan.org/Ticket/Display.html?id=99939
+
     )|

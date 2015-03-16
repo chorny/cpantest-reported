@@ -18,4 +18,5 @@ match:
     |Plagger-0.5.7
     |Finance-BitStamp-API-0.01 #https://rt.cpan.org/Ticket/Display.html?id=96457
     |Net-UCP-0.41 #https://rt.cpan.org/Ticket/Display.html?id=98102
+    |SQL-Translator-Producer-DBIx-Class-File-Simple-0.1 #https://rt.cpan.org/Ticket/Display.html?id=101060
     )|

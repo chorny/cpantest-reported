@@ -19,6 +19,8 @@ match:
     |Agent-3.20 #https://rt.cpan.org/Ticket/Display.html?id=94430
     |Replication-Recall-1.6 #https://rt.cpan.org/Ticket/Display.html?id=94450
     |Authen-Krb5-Easy-0.90 #https://rt.cpan.org/Ticket/Display.html?id=94454
+    |Myco-1.22 #https://rt.cpan.org/Ticket/Display.html?id=102094
+    |Apache-SessionX-2.01 #https://rt.cpan.org/Ticket/Display.html?id=102763
 
     #make/Build stage
     |Alien-LibGumbo-0.02 #https://rt.cpan.org/Ticket/Display.html?id=89087 #Windows only

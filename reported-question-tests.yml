@@ -10,11 +10,12 @@ match:
     |Curses-Simp-1.4.A8UG1gG #https://rt.cpan.org/Public/Bug/Display.html?id=82780
     |Authen-Krb5-Admin-0.17 #https://rt.cpan.org/Ticket/Display.html?id=86278
     |Forecast-IO-0.21 #https://rt.cpan.org/Ticket/Display.html?id=86798
-    |Test-AutomationFramework-0.060.01 #https://rt.cpan.org/Ticket/Display.html?id=88026
+    |Test-AutomationFramework-0.060.04 #https://rt.cpan.org/Ticket/Display.html?id=88026
     |Net-Azure-StorageClient-0.5 #https://rt.cpan.org/Ticket/Display.html?id=90201 https://github.com/junnama/net-azure-storageclient-perl/pull/1
     |RAS-AS5200-1.04 #https://rt.cpan.org/Ticket/Display.html?id=94429
     |RAS-HiPerARC-1.03 #https://rt.cpan.org/Ticket/Display.html?id=94448
     |MMM-OracleDump-0.01 #https://rt.cpan.org/Ticket/Display.html?id=94444
     |DBIx-Broker-1.14 #https://rt.cpan.org/Ticket/Display.html?id=94449
     |Authen-CyrusSASL-0.01 #hidden https://rt.cpan.org/Ticket/Display.html?id=94465
+    |MOP-1.00 #https://rt.cpan.org/Ticket/Display.html?id=101172
     )|

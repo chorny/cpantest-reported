@@ -8,12 +8,13 @@ match:
     .^   # never matches, only purpose is to let things align nicely
     |HTTP-ProxySelector-Persistent-0.02 #https://rt.cpan.org/Ticket/Display.html?id=85390
     |IO-File-Log-1.01 #cfrmd https://rt.cpan.org/Ticket/Display.html?id=34778
-    |Net-IPMessenger-Bot-0.02 #https://github.com/hayajo/p5-Net-IPMessenger-Bot/issues/1
     |App-Prove-Plugin-Cluster-0.02 #https://rt.cpan.org/Ticket/Display.html?id=82096
     |NRD-Daemon-0.04 #https://rt.cpan.org/Ticket/Display.html?id=82716
-    |Module-AutoLoad-0.01 #https://rt.cpan.org/Ticket/Display.html?id=86370
+    |Module-AutoLoad-0.04 #https://rt.cpan.org/Ticket/Display.html?id=86370 https://rt.cpan.org/Ticket/Display.html?id=102018
     |Bot-Net-0.1.0 #https://rt.cpan.org/Ticket/Display.html?id=41231
     |Net-Random-2.31 #sometimes VERY slow https://rt.cpan.org/Ticket/Display.html?id=93048
+    |Net-Proxy-0.13 #https://rt.cpan.org/Ticket/Display.html?id=100007
+    |App-perlrdf-0.006 #https://rt.cpan.org/Ticket/Display.html?id=99158
     )|
 
 --- 
@@ -28,4 +29,5 @@ match:
     .^   # never matches, only purpose is to let things align nicely
     |Sub-Call-Tail-0.05 #https://rt.cpan.org/Ticket/Display.html?id=81860
     )|
+
 
