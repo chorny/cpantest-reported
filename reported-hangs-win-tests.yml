@@ -75,18 +75,18 @@ match:
     |Net-HL7-0.80 #https://rt.cpan.org/Ticket/Display.html?id=101848
     |File-Blarf-0.12 #https://github.com/gittex/File-Blarf/issues/1
     |App-Unliner-0.020 #https://github.com/hoytech/unliner/issues/1 https://github.com/hoytech/unliner/pull/3
+    |Server-Starter-0.26 #https://rt.cpan.org/Ticket/Display.html?id=102936
+    |Tk-ObjEditor-2.009 #https://rt.cpan.org/Ticket/Display.html?id=99999
+    |File-Flock-2014.01 #https://rt.cpan.org/Ticket/Display.html?id=8595
 
     #00-compile.t
     |App-SuperviseMe-0.004 #https://github.com/melo/App-SuperviseMe/issues/1
-    |Dist-Zilla-Plugin-ReportVersions-Tiny-1.10 #https://github.com/dolmen/p5-Dist-Zilla-Plugin-ReportVersions-Tiny/pull/8
     |TPath-Forester-Ref-0.004 #https://rt.cpan.org/Ticket/Display.html?id=100012
-
-    |Tk-ObjEditor-2.009 #https://rt.cpan.org/Ticket/Display.html?id=99999
-    #|App-bif-0.1.4
-    |File-Flock-2014.01 #https://rt.cpan.org/Ticket/Display.html?id=8595
+    |Proc-Guard-0.07 #https://github.com/tokuhirom/Proc-Guard/issues/3
 
 
     #questions in tests
+    |CGI-Lite-2.99_02 #https://rt.cpan.org/Ticket/Display.html?id=103315
 
     #make stage
     
@@ -94,6 +94,20 @@ match:
     #need answer
     |Log-UDP-Server-0.40.0 #https://rt.cpan.org/Ticket/Display.html?id=85154
     |Proc-Simple-1.31 #https://rt.cpan.org/Ticket/Display.html?id=81260
+    )|
+
+--- 
+comment: |
+  Tests hang on perl 5.20.x
+disabled: 1
+match:
+  perlconfig:
+    osname: MSWin32
+    version: '5\.20\.\d'
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |Devel-CallChecker-0.007 #https://rt.cpan.org/Ticket/Display.html?id=103830
     )|
 
 --- 

@@ -24,11 +24,11 @@ match:
     |Win32-Script-0.58 #https://rt.cpan.org/Ticket/Display.html?id=82832
     |Math-TrulyRandom-1.0 #https://rt.cpan.org/Public/Bug/Display.html?id=34693
     |Net-Server-SS-PreFork-0.05 #dep missing https://rt.cpan.org/Ticket/Display.html?id=92169
-    |Compiler-Parser-0.08 #https://github.com/goccy/p5-Compiler-Parser/issues/13
     |AnyEvent-IRC-Server-0.03 #https://github.com/kan/p5-anyevent-irc-server/issues/5
     |AnyEvent-Gearman-WorkerPool-1.0 #https://rt.cpan.org/Ticket/Display.html?id=94107
     |Thread-Isolate-0.05 #https://rt.cpan.org/Ticket/Display.html?id=94306
-    |Compiler-Lexer-0.19 #https://github.com/goccy/p5-Compiler-Lexer/issues/41
+    |Compiler-Parser-0.10 #https://github.com/goccy/p5-Compiler-Parser/issues/13
+    |Compiler-Lexer-0.22 #https://github.com/goccy/p5-Compiler-Lexer/issues/41
     |Gearman-JobScheduler-0.16 #https://rt.cpan.org/Ticket/Display.html?id=97420
     |ZMQx-Class-0.006 #https://rt.cpan.org/Ticket/Display.html?id=100744
     )|
