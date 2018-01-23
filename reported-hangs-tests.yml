@@ -15,15 +15,17 @@ match:
     |Net-Random-2.31 #sometimes VERY slow https://rt.cpan.org/Ticket/Display.html?id=93048
     |Net-Proxy-0.13 #https://rt.cpan.org/Ticket/Display.html?id=100007
     |App-perlrdf-0.006 #https://rt.cpan.org/Ticket/Display.html?id=99158
+    |File-Lock-Multi-1.02 #https://rt.cpan.org/Ticket/Display.html?id=104720
+    |PDF-Imposition-0.21 #https://rt.cpan.org/Ticket/Display.html?id=112461
     )|
 
 --- 
 comment: |
-  Tests hang on perl 5.18.x
+  Tests hang on perl 5.18.x/5.20.x
 disabled: 1
 match:
   perlconfig:
-    version: '5\.18\.\d'
+    version: '5\.(?:18|20)\.\d'
   distribution: |
     /(?x:
     .^   # never matches, only purpose is to let things align nicely

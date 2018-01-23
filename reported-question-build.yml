@@ -21,6 +21,10 @@ match:
     |Authen-Krb5-Easy-0.90 #https://rt.cpan.org/Ticket/Display.html?id=94454
     |Myco-1.22 #https://rt.cpan.org/Ticket/Display.html?id=102094
     |Apache-SessionX-2.01 #https://rt.cpan.org/Ticket/Display.html?id=102763
+    |Chart-Graph-3.2
+    |Chart-Graph-3.3.1 #https://rt.cpan.org/Ticket/Display.html?id=107569, version removed
+    |Tangram-2.12 #https://rt.cpan.org/Ticket/Display.html?id=107654
+    |Bio-DB-HTS-1.06 #https://rt.cpan.org/Ticket/Display.html?id=110589
 
     #make/Build stage
     |Alien-LibGumbo-0.02 #https://rt.cpan.org/Ticket/Display.html?id=89087 #Windows only

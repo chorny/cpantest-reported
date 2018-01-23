@@ -17,6 +17,7 @@ match:
     |Finance-Bank-Cahoot-1.07 #https://rt.cpan.org/Ticket/Display.html?id=93687
     |Test-CheckChanges-0.14 #https://rt.cpan.org/Ticket/Display.html?id=62644
     |Parse-Extract-Net-MAC48-0.01 #cyclic symlink https://rt.cpan.org/Ticket/Display.html?id=93691
+    |DBIx-Class-ResultClass-HashRefInflator-UTF8-1.000005 #https://github.com/akzhan/DBIx-Class-ResultClass-HashRefInflator-UTF8/issues/2
 
     #incorrect directories
     |Catalyst-Plugin-ReferingKeyword-0.01 #https://rt.cpan.org/Ticket/Display.html?id=96466
@@ -34,8 +35,21 @@ match:
     |HTML-WebDAO-0.91 #https://rt.cpan.org/Ticket/Display.html?id=94671
     |WebService-Rakuten-API-0.06 #https://github.com/sue7ga/WebService-Rakuten-API/issues/1
     |XML-Tape-0.22 #https://rt.cpan.org/Ticket/Display.html?id=103770
+    |Plack-Debugger-Panel-Dancer2-Version-0.001 #https://github.com/mrmaloof/Plack-Debugger-Panel-Dancer2-Version/issues/1
+    |swat-0.1.54 #https://rt.cpan.org/Ticket/Display.html?id=107574
+    |CatalystX-DebugFilter-0.12 #https://rt.cpan.org/Ticket/Display.html?id=107575
+    |Test-Mock-Time-v0.1.6 #https://github.com/powerman/perl-Test-Mock-Time/issues/5
+    |WebService-TeamCity-0.03 #https://github.com/maxmind/WebService-TeamCity/issues/2
+    |RPi-DAC-MCP4922-0.01 #https://github.com/stevieb9/rpi-dac-mcp4922/issues/1
+    |Graphics-Raylib-0.001 #https://github.com/athreef/Graphics-Raylib/issues/1
+    |Device-HID-0.002 #https://github.com/athreef/Device-HID/issues/1
+    |Youri-Repository-0.1.4 #https://rt.cpan.org/Ticket/Display.html?id=123616
 
     #symlink
     |Solstice-1440 #https://rt.cpan.org/Ticket/Display.html?id=97040
+    |CPAN-Testers-TailLog-0.001001 #https://github.com/kentnl/CPAN-Testers-TailLog/issues/3
+
+    #too big
+    |HTTP-Thin-UserAgent-0.011 #https://rt.cpan.org/Ticket/Display.html?id=105053
 
     )|

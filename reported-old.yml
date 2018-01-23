@@ -11,12 +11,14 @@ match:
     |WebService-Bitly-0.04 #https://rt.cpan.org/Ticket/Display.html?id=82749
     |DbFramework-1.10 #https://rt.cpan.org/Public/Bug/Display.html?id=34541
     |DJabberd-0.81 #https://rt.cpan.org/Ticket/Display.html?id=92209
-    |Plagger-0.7.1 #https://rt.cpan.org/Ticket/Display.html?id=82863
-    |Plagger-0.6.5
-    |Plagger-0.5.2
-    |Plagger-0.5.4
-    |Plagger-0.5.7
     |Finance-BitStamp-API-0.01 #https://rt.cpan.org/Ticket/Display.html?id=96457
     |Net-UCP-0.41 #https://rt.cpan.org/Ticket/Display.html?id=98102
     |SQL-Translator-Producer-DBIx-Class-File-Simple-0.1 #https://rt.cpan.org/Ticket/Display.html?id=101060
+    |Tangram-2.04
+    |Tangram-2.09
+    |Tangram-2.10 #https://rt.cpan.org/Ticket/Display.html?id=107655
+    |autoclass_v1_01 #https://rt.cpan.org/Ticket/Display.html?id=109494
+    |LaTeX-Driver-0.12 #https://rt.cpan.org/Ticket/Display.html?id=113920
+
+    #report
     )|

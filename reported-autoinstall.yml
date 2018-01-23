@@ -14,11 +14,12 @@ match:
     |Test-Chimps-0.07 #https://rt.cpan.org/Ticket/Display.html?id=82982
     |Lingua-LinkParser-FindPath-0.01 #https://rt.cpan.org/Ticket/Display.html?id=82868
     |Kwiki-UserName-Auth-0.10 #https://rt.cpan.org/Ticket/Display.html?id=87568
-    |CGI-AppBuilder-Frame-0.10 #https://rt.cpan.org/Ticket/Display.html?id=82882
+    |CGI-AppBuilder-Frame-1.001 #https://rt.cpan.org/Ticket/Display.html?id=82882
     |HoneyClient-Manager-0.99 #https://rt.cpan.org/Ticket/Display.html?id=82840
     |HoneyClient-Util-0.98-stable #https://rt.cpan.org/Ticket/Display.html?id=82839
     |Devel-ebug-HTTP-0.32 #https://rt.cpan.org/Public/Bug/Display.html?id=40599
     |RT-Client-0.01 #https://rt.cpan.org/Ticket/Display.html?id=91404
     |Task-Math-Symbolic-1.01 #https://rt.cpan.org/Ticket/Display.html?id=94302
     |Voting-VoteFairRanking-5.01 #https://rt.cpan.org/Ticket/Display.html?id=95558
+    |Catalyst-Plugin-MortalForward-0.01 #https://rt.cpan.org/Ticket/Display.html?id=114042
     )|

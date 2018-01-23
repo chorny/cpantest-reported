@@ -15,13 +15,12 @@ match:
 
     |Device-CableModem-SURFboard-0.04 #https://rt.cpan.org/Ticket/Display.html?id=85377
     |HTML-XSSLint-0.01 #https://rt.cpan.org/Ticket/Display.html?id=85005
-    |AnyEvent-Process-0.01 #https://rt.cpan.org/Ticket/Display.html?id=82501
+    |AnyEvent-Process-0.02 #https://rt.cpan.org/Ticket/Display.html?id=82501
     |WWW-Slides-0.0.9 #https://rt.cpan.org/Ticket/Display.html?id=85396
     |MojoX-Renderer-Alloy-1.121150 #out of memory. Not on Linux. https://rt.cpan.org/Ticket/Display.html?id=82661
     |HTML-Expander-2.7 #https://rt.cpan.org/Ticket/Display.html?id=82949
     |CGI-Snapp-1.08 #https://rt.cpan.org/Ticket/Display.html?id=81241
     |OpenERP-XMLRPC-Simple-0.14   #https://rt.cpan.org/Ticket/Display.html?id=83748
-    |AnyEvent-ForkManager-0.04 #https://github.com/karupanerura/p5-AnyEvent-ForkManager/issues/2
     |Text-Editor-Easy-0.49   #https://rt.cpan.org/Ticket/Display.html?id=83860
     |IPC-PerlSSH-0.16 #https://rt.cpan.org/Ticket/Display.html?id=82136
     |LWPx-TimedHTTP-1.8 #https://rt.cpan.org/Ticket/Display.html?id=83275
@@ -55,9 +54,9 @@ match:
     |Gearman-Driver-0.02008 #https://rt.cpan.org/Ticket/Display.html?id=91669
     |POE-Loop-IO_Async-0.004 #https://rt.cpan.org/Ticket/Display.html?id=91728
     |AlignAid-v0.0.2 #https://rt.cpan.org/Ticket/Display.html?id=92063
-    |Net-SeedServe-v0.2.4 #https://rt.cpan.org/Ticket/Display.html?id=92621
-    |AnyEvent-WebSocket-Server-0.05 #https://rt.cpan.org/Ticket/Display.html?id=91158, depends on module
-    |Mail-SpamAssassin-3.4.0 #https://issues.apache.org/SpamAssassin/show_bug.cgi?id=7000
+    |Net-SeedServe-v0.2.7 #https://rt.cpan.org/Ticket/Display.html?id=92621
+    |Net-SeedServe-v0.2.6 #https://rt.cpan.org/Ticket/Display.html?id=92621
+    |AnyEvent-WebSocket-Server-0.06 #https://rt.cpan.org/Ticket/Display.html?id=91158, depends on module
     |Config-Hierarchical-0.13.9 #https://rt.cpan.org/Ticket/Display.html?id=94193
     |Memcached-Server-0.04 #https://rt.cpan.org/Ticket/Display.html?id=91703
     |Mythfs-perl-1.33 #https://github.com/lstein/mythfs-perl/pull/2
@@ -72,57 +71,149 @@ match:
     |Net-Proxy-0.13 #https://rt.cpan.org/Ticket/Display.html?id=100007
     |POE-Component-SSLify-1.012 #https://rt.cpan.org/Ticket/Display.html?id=100316
     |MogileFS-Server-2.72 #https://github.com/mogilefs/MogileFS-Server/pull/36
-    |Net-HL7-0.80 #https://rt.cpan.org/Ticket/Display.html?id=101848
+    |Net-HL7-0.81 #https://rt.cpan.org/Ticket/Display.html?id=101848
     |File-Blarf-0.12 #https://github.com/gittex/File-Blarf/issues/1
     |App-Unliner-0.020 #https://github.com/hoytech/unliner/issues/1 https://github.com/hoytech/unliner/pull/3
-    |Server-Starter-0.26 #https://rt.cpan.org/Ticket/Display.html?id=102936
     |Tk-ObjEditor-2.009 #https://rt.cpan.org/Ticket/Display.html?id=99999
     |File-Flock-2014.01 #https://rt.cpan.org/Ticket/Display.html?id=8595
+    |WWW-Mechanize-Shell-0.55 #https://github.com/Corion/WWW-Mechanize-Shell/pull/3
+    |POE-Loop-EV-0.13 #https://rt.cpan.org/Ticket/Display.html?id=104047
+    |AnyEvent-ForkManager-0.06 #https://github.com/karupanerura/p5-AnyEvent-ForkManager/issues/2
+    |YAHC-0.022 #https://rt.cpan.org/Ticket/Display.html?id=104708
+    |MooX-Cmd-0.014 #https://rt.cpan.org/Ticket/Display.html?id=104742
+    |App-bif-0.1.5_2 #https://rt.cpan.org/Ticket/Display.html?id=105523
+    |HTTP-Server-Brick-0.1.7 #https://rt.cpan.org/Ticket/Display.html?id=81660
+    |Lemonldap-NG-Handler-1.4.6 #https://rt.cpan.org/Ticket/Display.html?id=107661
+    |Lock-Server-1.7 #https://rt.cpan.org/Ticket/Display.html?id=107967
+    |Yars-Command-yars_exercise-0.03 #https://github.com/clustericious/Yars-Command-yars_exercise/pull/1
+    |Test-PostgreSQL-1.20_02 #https://rt.cpan.org/Ticket/Display.html?id=110976
+    |AnyEvent-Eris-0.000001 #https://github.com/xsawyerx/anyevent-eris/issues/11
+    |Eixo-Queue-0.3.6 #https://rt.cpan.org/Ticket/Display.html?id=111966
+    |Eixo-Queue-0.3.5 #https://rt.cpan.org/Ticket/Display.html?id=111966
+    |App-txtnix-0.01 #https://github.com/mdom/txtnix/issues/2
+    |VCF-1.003 #https://github.com/morungos/p5-VCF/pull/2
+    |Coro-PatchSet-0.13 #https://rt.cpan.org/Ticket/Display.html?id=112915
+    |Process-Pipeline-0.01 #https://github.com/skaji/Process-Pipeline/issues/1
+    |Test-HTTP-MockServer-v0.0.1 #https://rt.cpan.org/Ticket/Display.html?id=116338
+    |BSON-Decode-0.02 #https://rt.cpan.org/Ticket/Display.html?id=116778
+    |OpenERP-XMLRPC-Simple-0.23 #https://github.com/OpusVL/OpenERP-XMLRPC-Simple/issues/2
+    |Crypt-Perl-0.15\. #https://rt.cpan.org/Ticket/Display.html?id=119696
+    |Crypt-Perl-0.14
+    #|Crypt-Perl-0.1\.
+    |App-MechaCPAN-0.11 #https://github.com/atrodo/App-MechaCPAN/issues/2
+    |Proc-tored-0.02.tar.gz #https://github.com/jsober/Proc-tored/issues/1
+    |Async-Simple-Pool-0.15 #https://rt.cpan.org/Ticket/Display.html?id=122747
+    |JIRA-REST-Class-0.10 #https://github.com/packy/JIRA-REST-Class/pull/5
+    |Net-RGTP-0.10 #https://rt.cpan.org/Ticket/Display.html?id=120806
+    |Mojo-Redis2-0.26 #https://github.com/jhthorsen/mojo-redis2/pull/21
+    |Benchmark-Perl-Formance-Plugin-Mandelbrot-0.001 #https://rt.cpan.org/Ticket/Display.html?id=113947
+    |WebService-Freshservice-0.003 #https://github.com/techman83/WebService-Freshservice/pull/1
+    |Test-Flatten-0.11 #https://github.com/xaicron/p5-Test-Flatten/issues/6
+    |Parallel-PreForkManager-1.20180106 #https://rt.cpan.org/Ticket/Display.html?id=121156
+    |Net-MessageBus-0.08 #https://rt.cpan.org/Ticket/Display.html?id=121238
+    |Storable-3.05_12 #https://github.com/rurban/Storable/pull/2
+    |CGI-Application-Plugin-CAPTCHA-0.04 #https://github.com/cromedome/cgi-application-plugin-captcha/pull/2
+    |Forks-Queue-0.06 #https://rt.cpan.org/Ticket/Display.html?id=121460
+    |Fluent-Logger-0.22 #https://github.com/fluent/fluent-logger-perl/pull/23 https://github.com/fluent/fluent-logger-perl/issues/12
+    |Alien-XPA-0.01 #https://github.com/djerius/Alien-XPA/pull/1 https://rt.cpan.org/Ticket/Display.html?id=121653
+    |Test-DB-Shared-0.003 #https://rt.cpan.org/Ticket/Display.html?id=122067
+    |IPC-Queue-Duplex-1.005 #https://rt.cpan.org/Ticket/Display.html?id=122203
+    |AnyEvent-Impl-Prima-0.01 #https://rt.cpan.org/Ticket/Display.html?id=122230
+    |Prty-1.12\d.tar.gz #https://rt.cpan.org/Ticket/Display.html?id=122355
+    |Log-Dispatch-FileRotate-1.28 #https://rt.cpan.org/Ticket/Display.html?id=122624
+    |Patro-0.16 #https://rt.cpan.org/Ticket/Display.html?id=123155
+    |AnyEvent-FileLock-0.04 #https://rt.cpan.org/Ticket/Display.html?id=123196
+    |Argon-0.18 #https://github.com/sysread/Argon/issues/4
+    |Proc-Guard-0.07 #https://github.com/tokuhirom/Proc-Guard/issues/3
+    |Test2-Harness-0.001034 #https://github.com/Test-More/Test2-Harness/issues/45
+    |Assert-Refute-0.0301 #https://rt.cpan.org/Ticket/Display.html?id=123900
+    |Bio-LITE-Taxonomy-NCBI-0.1 #https://rt.cpan.org/Ticket/Display.html?id=123903
+    |Win32-HTA-1.02 #https://rt.cpan.org/Ticket/Display.html?id=124184
 
     #00-compile.t
     |App-SuperviseMe-0.004 #https://github.com/melo/App-SuperviseMe/issues/1
     |TPath-Forester-Ref-0.004 #https://rt.cpan.org/Ticket/Display.html?id=100012
-    |Proc-Guard-0.07 #https://github.com/tokuhirom/Proc-Guard/issues/3
+    |HTML-Mason-PSGIHandler-0.53 #https://github.com/ruz/HTML-Mason-PSGIHandler/pull/14
 
 
     #questions in tests
     |CGI-Lite-2.99_02 #https://rt.cpan.org/Ticket/Display.html?id=103315
+    |Test-CGI-External-0.07 #https://github.com/benkasminbullock/test-cgi-external/issues/1
 
     #make stage
     
     
-    #need answer
+    #need my answer
     |Log-UDP-Server-0.40.0 #https://rt.cpan.org/Ticket/Display.html?id=85154
-    |Proc-Simple-1.31 #https://rt.cpan.org/Ticket/Display.html?id=81260
+    |Proc-Simple-1.32 #https://rt.cpan.org/Ticket/Display.html?id=81260
+    |Unix-Passwd-File-0.23
+    |Perinci-Tx-Manager-0.56
+    |Net-LDAP-Server-Test-0.22
+    |IPC-PerlSSH-0.17
+    |warnings-everywhere-0.024
+    |Lab-Measurement-3.613
+    |Lab-Measurement-3.611
+    |Alien-MSYS-0.09 #https://github.com/plicease/Alien-MSYS/issues/5
+    |Alien-MSYS-0.10_01
     )|
 
 --- 
 comment: |
-  Tests hang on perl 5.20.x
+  Tests hang on use64bitint
 disabled: 1
 match:
   perlconfig:
     osname: MSWin32
-    version: '5\.20\.\d'
+    not_use64bitint: 'define'
   distribution: |
     /(?x:
     .^   # never matches, only purpose is to let things align nicely
-    |Devel-CallChecker-0.007 #https://rt.cpan.org/Ticket/Display.html?id=103830
+    |Data-Bitfield-0.02 #https://rt.cpan.org/Ticket/Display.html?id=123601
     )|
 
 --- 
 comment: |
-  Tests hang on perl 5.18.x
+  Tests hang on perl 5.22.x,24.x, 5.26.x
 disabled: 1
 match:
   perlconfig:
     osname: MSWin32
-    version: '5\.18\.\d'
+    version: '5\.2[23456]\.\d'
   distribution: |
     /(?x:
     .^   # never matches, only purpose is to let things align nicely
-    |Event-RPC-1.05 #https://rt.cpan.org/Ticket/Display.html?id=87400
-    |CPAN-FindDependencies-2.42 #https://rt.cpan.org/Ticket/Display.html?id=93161
+    |POE-1.367 #https://rt.cpan.org/Ticket/Display.html?id=113451
+    |Danga-Socket-1.61 #https://rt.cpan.org/Ticket/Display.html?id=21751
+    )|
+
+--- 
+comment: |
+  Tests hang on perl 5.20.x - 5.24.x
+disabled: 1
+match:
+  perlconfig:
+    osname: MSWin32
+    version: '5\.2[02345]\.\d'
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |Devel-CallChecker-0.008 #https://rt.cpan.org/Ticket/Display.html?id=103830
+    #|Business-OnlinePayment-Capstone-0.02 #5.2[23]?-checklater https://rt.cpan.org/Ticket/Display.html?id=104396
+    )|
+
+--- 
+comment: |
+  Tests hang on perl 5.18.x/5.20.x
+disabled: 1
+match:
+  perlconfig:
+    osname: MSWin32
+    version: '5\.(?:18|20|25|26)\.\d'
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |Event-RPC-1.08 #https://rt.cpan.org/Ticket/Display.html?id=87400
+    |Event-RPC-1.08_01 #https://rt.cpan.org/Ticket/Display.html?id=87400
     )|
 
 --- 

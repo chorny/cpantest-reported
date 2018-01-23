@@ -18,4 +18,7 @@ match:
     |DBIx-Broker-1.14 #https://rt.cpan.org/Ticket/Display.html?id=94449
     |Authen-CyrusSASL-0.01 #hidden https://rt.cpan.org/Ticket/Display.html?id=94465
     |MOP-1.00 #https://rt.cpan.org/Ticket/Display.html?id=101172
+    |EZDBI-0.16 #https://rt.cpan.org/Ticket/Display.html?id=111575
+    |IMAP-Admin-1.6.8 #https://rt.cpan.org/Ticket/Display.html?id=14601
+
     )|

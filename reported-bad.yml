@@ -14,6 +14,7 @@ match:
     |WWW-InstaMapper-0.02 #not in index https://rt.cpan.org/Ticket/Display.html?id=91566
     |Net-UCP-0.42 #not in index https://rt.cpan.org/Ticket/Display.html?id=91567
     |WWW-Mediawiki-Client-0.32 #not in index https://rt.cpan.org/Ticket/Display.html?id=101059
+    |XML-NmapParser-0.2 #https://rt.cpan.org/Ticket/Display.html?id=108152
 
     #Mac files
 
@@ -34,6 +35,8 @@ match:
     |Crypt-XXTEA-1.00 #https://rt.cpan.org/Ticket/Display.html?id=55247
     |PGForth1.3 #https://rt.cpan.org/Ticket/Display.html?id=97041
     |Catalyst-Plugin-Imager-0.01 #https://rt.cpan.org/Ticket/Display.html?id=101048
+    |SMS-Send-Telenor-0.02 #https://rt.cpan.org/Ticket/Display.html?id=104203
+    |Mojolicious-Plugin-TweetButton-0.0004 #https://rt.cpan.org/Ticket/Display.html?id=114747
 
     #incorrect directory structure
     |WWW-Wuala-00.1 #https://rt.cpan.org/Ticket/Display.html?id=92886
@@ -44,15 +47,27 @@ match:
     |SMS_API_4.01.1 #https://rt.cpan.org/Ticket/Display.html?id=101053
     |PDF-CreateSimple-1-1 #https://rt.cpan.org/Ticket/Display.html?id=101054
     |Geo-Coder-Canada-0.01 #https://rt.cpan.org/Ticket/Display.html?id=102722
+    |Win32-DirSize-1.13 #https://rt.cpan.org/Ticket/Display.html?id=93796
+    |API-Intis-1.00.tar.gz #https://rt.cpan.org/Ticket/Display.html?id=120307
 
     #circular dependency
-    |qbit-0.9 #https://rt.cpan.org/Ticket/Display.html?id=95622
     |WWW-Kosoku-API-0.09 #https://github.com/sue7ga/WWW-Kosoku-API/issues/1
     |Gtk2-Ex-ICal-Recur-0.06 #https://rt.cpan.org/Ticket/Display.html?id=101052
     |MP3-Album-0.14 #https://rt.cpan.org/Ticket/Display.html?id=102169
+    |Statistics-Sequences-Vnomes-0.20 #https://rt.cpan.org/Ticket/Display.html?id=112609
+    |Firewall-PaloAlto-0.04 #https://rt.cpan.org/Ticket/Display.html?id=110449
+    |QBit-Application-Model-DB-0.009 #https://rt.cpan.org/Ticket/Display.html?id=115152
+    |QBit-WebInterface-0.025 #https://rt.cpan.org/Ticket/Display.html?id=117608
+    |QBit-WebInterface-Routing-0.001 #https://rt.cpan.org/Ticket/Display.html?id=117820
 
     #empty
     |DateLocale-1.29 #not in index https://rt.cpan.org/Ticket/Display.html?id=99922
     |Mojo-IOLoop-ProcBackground-0.05 #not in index https://rt.cpan.org/Ticket/Display.html?id=99939
+    |Alien-Gnuplot-1.031 #https://rt.cpan.org/Ticket/Display.html?id=109034
+    |Biblio-Citation-Compare-0.51 #https://rt.cpan.org/Ticket/Display.html?id=113362
+    |Test-Mock-Mango-0.10 #https://github.com/necrophonic/test-mock-mango/issues/8
+    |WWW-canihazip-0.02.tar.gz #https://rt.cpan.org/Public/Bug/Display.html?id=120355
+    |WWW-IP-0.05.tar.gz #https://rt.cpan.org/Public/Bug/Display.html?id=120344
+    |WWW-hmaip-0.03.tar.gz #https://rt.cpan.org/Public/Bug/Display.html?id=120354
 
     )|
